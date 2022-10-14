@@ -1,0 +1,21 @@
+@media(min-width:1681px){
+
+}
+
+@media(max-width:1200px){
+    .heading .para p br, .heading .large_heading h3 br{
+        display:none;
+    }
+}
+
+@media(max-width:991px){
+
+}
+
+@media(max-width:767px){
+
+}
+
+@media(max-width:575px){
+
+}

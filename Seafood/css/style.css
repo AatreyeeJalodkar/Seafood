@@ -1,0 +1,247 @@
+*{
+    
+}
+ /*---------- Common section start ------- */
+.red_btn a{
+    color:var(--white) !important;
+    background-color: var(--red);
+    border:none;
+    border-radius: unset !important;
+    padding: 6px 20px;
+}
+.red_btn a:hover{
+    color: var(--white);
+    background-color: var(--light_red);
+}
+/* ---------- Commen section end--------- */
+
+/* ---------Head section start ------------*/
+.head_part .logo_list .logo_img img{
+    width: ;
+    height: ;
+}
+.home_list li a {
+    font-size: ;
+    color: var(--black);
+}
+/*-----------Head section end -----------*/
+
+/* -----------Hero section (Enjoy Your EATING Time) Start----------- */
+.hero_section  img{
+    width: 100%;
+    height: 550px;
+}
+.hero_section .overlay{
+    height: 100%;
+}
+.hero_section .heading h2 , .hero_section .para p , .hero_section .circle_btn p , .contact_details span , .contact_details p , .contact_details a{
+    color:var(--white);
+}
+.hero_section .heading h2 span , .heading .small_heading h5 , .card-body h4 a:hover , .card-body .price a:hover , .date i , .header_section .mean_bar ul li a i{
+    color:var(--red);
+}
+.circle_btn a{
+    color:var(--white) !important;
+    background-color: var(--red);
+    border-radius: 50% !important;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+.overlay_section .carousel-inner .carousel-item:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background-color: rgb(0 0 0);
+    opacity: 0.7;
+}
+.hero_section .slider_box {
+    padding-bottom: 150px;
+}
+/* -----------Hero section (Enjoy Your EATING Time) End------------ */
+.heading .large_heading h3 , .card-body h4 a ,  .card-body .price a{
+    color:var(--black);
+}
+.carousel-indicators li {
+    width: 2px;
+    height: 0px;
+    padding: 7px 6px;
+    border-radius: 50%;
+}
+.carousel-indicators li.active{
+    background-color: var(--red);
+}
+/*-------------------Delicious food section start --------------------*/
+.deliciousfood_section{
+    background-image: url(../images/Pattern.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--light_white);
+}
+.deliciousfood_section .allfood_list .home_list img{
+    width: auto;
+    height: 40px;
+}
+.card-body p , .heading .para p , .happy_customer_section .text-img_part .text_part p , .date p{
+    color:var(--gray);
+}
+.deliciousfood_section .food_img img{
+    height: 241px;
+    width: 100%;
+}
+.card-body .price img:hover{
+    filter: invert(54%) sepia(97%) saturate(4068%) hue-rotate(335deg) brightness(98%) contrast(95%);
+}
+.deliciousfood_section .allfood_list .home_list img .active{
+    filter: invert(39%) sepia(65%) saturate(6989%) hue-rotate(348deg) brightness(108%) contrast(84%);
+}
+.delicious_item > div {
+    margin-top: 30px;
+    display: none;
+}
+/*--------------------Delicious food section end ----------------*/
+
+/* ---------------------Abuot us start ----------------- */
+.list ul li a{
+    color:var(--black);
+}
+.about_part .part img{
+    width: 100%;
+    height: 193px;
+}
+/* .about_part{
+    position: absolute;
+} */
+/* .about_part .year_btn{
+    position: relative;
+    top: -92px;
+    left: 211px;
+} */
+/* -----------------------Abuot us end ---------------- */
+
+/* ---------------- Why Choose us start ----------------- */
+.why_choose_us_section{
+    background-image:url(../images/image3.png);
+    position: relative;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.why_choose_us_section .large_heading h3 , .why_choose_us_section .para p , .why_choose_us_section .list ul li a h6, .why_choose_us_section .list ul li a span{
+    color:var(--white);
+} 
+.why_choose_us_section .overlay {
+    background-color: rgb(10, 0, 0);
+    opacity: 0.8;
+    width: 100%;
+    height: 650px;
+    z-index: 258;
+}
+.why_choose_us_section .heading .large_heading_table h3{
+    color:var(--black);
+}
+.why_choose_us_section .table td{
+    color:var(--black);
+}
+.why_choose_us_section .table tr {
+    border-bottom: 1px solid #ddd;
+}
+/* --------------- Why Choose us end---------------- */
+
+/* --------------- Speciaized Team start ---------------- */
+.item.slider_item {
+    margin-bottom: 35px;
+}
+.our_team .team_member .slider_box {
+    position: relative;
+}
+.our_team .team_member .member_name{
+    background-color: var(--white);
+    position: absolute;
+    bottom: -26px;
+    border-bottom: 1px solid red;
+    width: 231px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 999;
+    /* display: none; */
+}
+/* .our_team .team_member .member_name .active{
+    display: block;
+} */
+/* --------------- Speciaized Team end ------------------ */
+
+/* -------------- Happy Customber start ------------------ */
+.happy_customer_section .text-img_part .text_part{
+    border-left: 1px solid var(--red);
+}
+.text-img_part .img_part img{
+    width: auto;
+    height: 273px;
+}
+.slider_box .text_part img{
+    width: auto;
+    height: 100%;
+}
+/* -------------- Happy Customber end ------------------ */
+
+/* -------------- News & Blog section start --------------- */
+
+/* --------------- News & Blog section end ---------------- */
+/* ------ Simple Way to order section start -------- */
+.order_section{
+    background-color: var(--light_pink);
+}
+.way_to_order_part .img_part .mobile_img img{
+    height: 364px;
+    width: auto;
+}
+.order_section .img_part .screen_img .screen_one img , .order_section .img_part .screen_img .screen_two img{
+    width: auto;
+    height: 288px;
+}
+.store_button .red_btn a{
+    display: flex;
+    align-items: center;
+    grid-gap: 20px;
+    justify-content: left;
+}
+/* ------ Simple Way to order section end -------- */
+
+/* ------------ Footer section start --------------- */
+.footer_section{
+    background-image: url(../images/pattern_footer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--dark_gray);
+}
+.subscribe .subscribe_detalis input{
+    color:var(--white);
+    background-color: var(--dark_gray);
+}
+.footer_section .list ul li a img:hover{
+    filter: invert(54%) sepia(97%) saturate(4068%) hue-rotate(335deg) brightness(98%) contrast(95%);
+}
+/* ------------ Footer section end --------------- */
+
+
+.choose_part .table_container .line{
+    width: 100%;
+    height: 2px;
+    background: var(--red);
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+}
+.choose_part .table_container:hover .line{
+    transform: scale(1);
+}

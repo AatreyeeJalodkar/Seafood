@@ -1,0 +1,1270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SECFOOD</title>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+  <link href="css/reset.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet"
+    href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css">
+  <link rel="stylesheet"
+    href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
+</head>
+
+<body>
+  <!------------ Head section start------------>
+  <header class="header_section py-3" id="header_data">
+    <div class="container">
+      <div class="head_part">
+        <div class="row">
+          <div class="col-10">
+            <div class="logo_list">
+              <div class="row align-items-center">
+                <div class="col-2">
+                  <div class="logo_img">
+                    <img src="images/Logo1.png" alt="logo_img" class="img-fluid">
+                  </div>
+                </div>
+                <div class="col-10">
+                  <div class="mean_bar">
+
+                    <nav class="navbar navbar-expand-xl">
+                      <!-- Toggler/collapsibe Button -->
+                      <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse"
+                        data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+
+                      <!-- Navbar links -->
+                      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav home_list">
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Menu</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">
+                              <span> Shop</span>
+                              <i class="fa fa-caret-down" aria-hidden="true"></i>
+                              <!-- <img src="images/icon.png" alt="icon_img" class="img-fluid"> -->
+                              <!-- <div class="dropdown">
+                                                <button type="button" class="btn dropdown-toggle bg-body" data-toggle="dropdown">
+                                                  Shop
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                  <a class="dropdown-item" href="#">Link 1</a>
+                                                  <a class="dropdown-item" href="#">Link 2</a>
+                                                  <a class="dropdown-item" href="#">Link 3</a>
+                                                </div>
+                                              </div> -->
+
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">
+                              <span>About Us</span>
+                              <i class="fa fa-caret-down" aria-hidden="true"></i>
+                              <!-- <img src="images/icon.png" alt="icon_img" class="img-fluid"> -->
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">
+                              <span>Blog</span>
+                              <i class="fa fa-caret-down" aria-hidden="true"></i>
+                              <!-- <img src="images/icon.png" alt="icon_img" class="img-fluid"> -->
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">
+                              <span> Shop</span>
+                              <i class="fa fa-caret-down" aria-hidden="true"></i>
+                              <!-- <img src="images/icon.png" alt="icon_img" class="img-fluid"> -->
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                          </li>
+                          <li class="nav-item px-3">
+                            <div class="red_btn">
+                              <a href="javascript:void(0)" class="btn">RESERVATION</a>
+                            </div>
+                          </li>
+                        </ul>
+                      </div>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-2">
+            <div class="user_usable">
+              <nav class="navbar navbar-expand-sm">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      <img src="images/Search.png" alt="search_img" class="img-fluid">
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      <img src="images/cart_black" alt="cart_img" class="img-fluid">
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      <img src="images/Login.png" alt="login_img" class="img-fluid">
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!------------ Head section end-------------->
+
+  <!------ Hero section (Enjoy Your EATING Time) Start  ------>
+  <section class="hero_section" id="hero_sec_data">
+    <div class="overlay">
+      <div class="container-fluid px-0">
+
+
+        <div id="demo" class="carousel slide overlay_section" data-ride="carousel">
+
+          <!-- Indicators -->
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+          </ul>
+
+          <!-- The slideshow -->
+          <div class="carousel-inner">
+            <div class="overlay_slider">
+              <div class="carousel-item active">
+                <img src="images/banner-h.png" alt="img" class="img-fluid">
+                <div class="carousel-caption">
+                  <div class="slider_box text-left">
+                    <div class="heading">
+                      <h2>ENJOY YOUR <span>EATING TIME</span> <br> WITH SEAFOOD</h2>
+                    </div>
+                    <div class="para">
+                      <p>Lorem Ipsum is simply dummy text of the printing and typesatting industry. <br> Lorem Ipsum has
+                        been the industry's standard dummy text.</p>
+                    </div>
+                    <div class="play_list d-flex ">
+                      <div class="red_btn">
+                        <a href="javascript:void(0)" class="btn">ORDER NOW</a>
+                      </div>
+                      <div class="circle_btn d-flex px-3">
+                        <!-- Button to Open the Modal -->
+                        <a href="javascript:void(0)" class="btn" data-toggle="modal" data-target="#myModal">
+                          <i class="fa fa-play" aria-hidden="true"></i>
+                        </a><span class="pt-2 px-1"> WATCH VIDEO</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="overlay_slider">
+                  <img src="images/banner-(2).png" alt="img" class="img-fluid">
+                  <div class="carousel-caption">
+                    <div class="slider_box text-left">
+                      <div class="heading">
+                        <h2>ENJOY YOUR <span>EATING TIME</span> <br> WITH SEAFOOD</h2>
+                      </div>
+                      <div class="para">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesatting industry. <br> Lorem Ipsum
+                          has
+                          been the industry's standard dummy text.</p>
+                      </div>
+                      <div class="play_list d-flex ">
+                        <div class="red_btn">
+                          <a href="javascript:void(0)" class="btn">ORDER NOW</a>
+                        </div>
+                        <div class="circle_btn d-flex px-3">
+                          <!-- Button to Open the Modal -->
+                          <a href="javascript:void(0)" class="btn" data-toggle="modal" data-target="#myModal">
+                            <i class="fa fa-play" aria-hidden="true"></i>
+                          </a><span class="pt-2 px-1"> WATCH VIDEO</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="overlay_slider">
+                  <img src="images/banner-(3).jpg" alt="img" class="img-fluid">
+                  <div class="carousel-caption">
+                    <div class="slider_box text-left">
+                      <div class="heading">
+                        <h2>ENJOY YOUR <span>EATING TIME</span> <br> WITH SEAFOOD</h2>
+                      </div>
+                      <div class="para">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesatting industry. <br> Lorem Ipsum
+                          has
+                          been the industry's standard dummy text.</p>
+                      </div>
+                      <div class="play_list d-flex ">
+                        <div class="red_btn">
+                          <a href="javascript:void(0)" class="btn">ORDER NOW</a>
+                        </div>
+                        <div class="circle_btn d-flex px-3">
+                          <!-- Button to Open the Modal -->
+                          <a href="javascript:void(0)" class="btn" data-toggle="modal" data-target="#myModal">
+                            <i class="fa fa-play" aria-hidden="true"></i>
+                          </a><span class="pt-2 px-1"> WATCH VIDEO</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+        <!-- </div> -->
+  </section>
+  <!------ Hero section (Enjoy Your EATING Time) End --------->
+
+  <!------------- Delicious food section start----------->
+  <section class="deliciousfood_section py-5" id="delicious_data">
+    <div class="container">
+      <div class="food_section">
+        <div class="heading text-center">
+          <div class="small_heading">
+            <h5 class="fs_20 fw-700">OUR SPECIALS MENU</h5>
+          </div>
+          <div class="large_heading">
+            <h3 class="fs_30 fw-700">DELICIOUS FOOD</h3>
+          </div>
+        </div>
+        <div class="allfood_list">
+          <nav class="navbar navbar-expand-md">
+            <!-- Toggler/collapsibe Button -->
+            <!-- <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse"
+              data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button> -->
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+              <ul class="navbar-nav home_list text-center">
+                <li class="nav-item">
+                  <a class="nav-link px-4 active" href="javascript:void(0)" data_filter="1">
+                    <img src="images/Food_new.jpg" alt="icon_img" class="img-fluid">
+                    <p class="text-body">All Food</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-4" href="javascript:void(0)" data_filter="2">
+                    <img src="images/Fish.png" alt="icon_img" class="img-fluid">
+                    <p class="text-body px-1">Fish</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-4" href="javascript:void(0)" data_filter="3">
+                    <img src="images/Shripm.png" alt="icon_img" class="img-fluid">
+                    <p class="text-body">Shripms</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-4" href="javascript:void(0)" data_filter="4">
+                    <img src="images/Crab.png" alt="icon_img" class="img-fluid">
+                    <p class="text-body px-1">Crab</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-4" href="javascript:void(0)" data_filter="5">
+                    <img src="images/Lobster.png" alt="icon_img" class="img-fluid">
+                    <p class="text-body">Lobster</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-4" href="javascript:void(0)" data_filter="6">
+                    <img src="images/Salad.png" alt="icon_img" class="img-fluid">
+                    <p class="text-body">Salad</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-4" href="javascript:void(0)" data_filter="7">
+                    <img src="images/Drink.png" alt="icon_img" class="img-fluid">
+                    <p class="text-body">Drink</p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+
+        <div class="delicious_item">
+          <div data_filter_contant="1" class="d-block">
+            <div class="row">
+              <div class="col-xl-4 col-6">
+                <div class="card_portion">
+                  <div class="card border-0 shadow h-100 ">
+                    <div class="food_img">
+                      <a href="#"><img class="card-img-top" src="images/image-(6).png" alt="Card image"></a>
+                    </div>
+                    <div class="card-body">
+                      <h4 class="fs_20 card-title"><a href="#">Fried Fish</a></h4>
+                      <p class="fs_16 card-text">Lorem Ipsum is simply dummy text <br>of the printing and typesetting
+                      </p>
+                      <div class="price">
+                        <a href="#" class="btn p-0 fs_16">Delivery Fee : $10</a>
+                        <a href="#" class="float-right">
+                          <!-- <img src="images/Plus.png" alt="icon_img" class="img-fluid"> -->
+                          <img src="images/Cart.png" alt="icon_img" class="img-fluid bg-dark p-1">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-4 col-6">
+                <div class="card_portion">
+                  <div class="card border-0 shadow h-100">
+                    <div class="food_img">
+                      <a href="#"><img class="card-img-top" src="images/image-(3).png" alt="Card image"></a>
+                    </div>
+                    <div class="card-body">
+                      <h4 class="card-title fs_20"><a href="#">Fried Shripm Soup</a></h4>
+                      <p class="card-text fs_16">Lorem Ipsum is simply dummy text <br>of the printing and typesetting
+                      </p>
+                      <div class="price">
+                        <a href="#" class="btn p-0 fs_16">Delivery Fee : $10</a>
+                        <a href="#" class="float-right">
+                          <!-- <img src="images/Plus.png" alt="icon_img" class="img-fluid"> -->
+                          <img src="images/Cart.png" alt="icon_img" class="img-fluid bg-dark p-1">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-4 col-6">
+                <div class="card_portion pt-xl-0 pt-4">
+                  <div class="card border-0 shadow h-100">
+                    <div class="food_img">
+                      <a href="#"><img class="card-img-top" src="images/image-(4).png" alt="Card image"></a>
+                    </div>
+                    <div class="card-body">
+                      <h4 class="card-title fs_20"><a href="#">Fried Fish Curry</a></h4>
+                      <p class="card-text fs_16">Lorem Ipsum is simply dummy text <br>of the printing and typesetting
+                      </p>
+                      <div class="price">
+                        <a href="#" class="btn p-0 fs_16">Delivery Fee : $10</a>
+                        <a href="#" class="float-right">
+                          <!-- <img src="images/Plus.png" alt="icon_img" class="img-fluid"> -->
+                          <img src="images/Cart.png" alt="icon_img" class="img-fluid bg-dark p-1">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-4 col-6">
+                <div class="card_portion py-4">
+                  <div class="card border-0 shadow h-100">
+                    <div class="food_img">
+                      <a href="#"><img class="card-img-top" src="images/banner-(3).jpg" alt="Card image"></a>
+                    </div>
+                    <div class="card-body">
+                      <h4 class="card-title fs_20"><a href="#">Fried Shrimp with Noodles</a></h4>
+                      <p class="card-text fs_16">Lorem Ipsum is simply dummy text <br>of the printing and typesetting
+                      </p>
+                      <div class="price">
+                        <a href="#" class="btn p-0 fs_16">Delivery Fee : $10</a>
+                        <a href="#" class="float-right">
+                          <!-- <img src="images/Plus.png" alt="icon_img" class="img-fluid"> -->
+                          <img src="images/Cart.png" alt="icon_img" class="img-fluid bg-dark p-1">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-4 col-6">
+                <div class="card_portion py-4">
+                  <div class="card border-0 shadow h-100">
+                    <div class="food_img">
+                      <a href="#"><img class="card-img-top" src="images/image2.png" alt="Card image"></a>
+                    </div>
+                    <div class="card-body">
+                      <h4 class="card-title fs_20"><a href="#">Grilled Lobster</a></h4>
+                      <p class="card-text fs_16">Lorem Ipsum is simply dummy text <br>of the printing and typesetting
+                      </p>
+                      <div class="price">
+                        <a href="#" class="btn p-0 fs_16">Delivery Fee : $10</a>
+                        <a href="#" class="float-right">
+                          <!-- <img src="images/Plus.png" alt="icon_img" class="img-fluid"> -->
+                          <img src="images/Cart.png" alt="icon_img" class="img-fluid bg-dark p-1">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xl-4 col-6">
+                <div class="card_portion py-4">
+                  <div class="card border-0 shadow h-100">
+                    <div class="food_img">
+                      <a href="#"><img class="card-img-top" src="images/image3.jpg" alt="Card image"></a>
+                    </div>
+                    <div class="card-body">
+                      <h4 class="card-title fs_20"><a href="#">Grilled Lobster</a></h4>
+                      <p class="card-text fs_16">Lorem Ipsum is simply dummy text <br>of the printing and typesetting
+                      </p>
+                      <div class="price">
+                        <a href="#" class="btn p-0 fs_16">Delivery Fee : $10</a>
+                        <a href="#" class="float-right">
+                          <!-- <img src="images/Plus.png" alt="icon_img" class="img-fluid"> -->
+                          <img src="images/Cart.png" alt="icon_img" class="img-fluid bg-dark p-1">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data_filter_contant="2">
+            <div class="row">
+              <div class="col-xl-4 col-6">
+                <div class="card_portion">
+                  <div class="card border-0 shadow h-100 ">
+                    <div class="food_img">
+                      <a href="#"><img class="card-img-top" src="images/image-(6).png" alt="Card image"></a>
+                    </div>
+                    <div class="card-body">
+                      <h4 class="fs_20 card-title"><a href="#">Fried Fish</a></h4>
+                      <p class="fs_16 card-text">Lorem Ipsum is simply dummy text <br>of the printing and typesetting
+                      </p>
+                      <div class="price">
+                        <a href="#" class="btn p-0 fs_16">Delivery Fee : $10</a>
+                        <a href="#" class="float-right">
+                          <!-- <img src="images/Plus.png" alt="icon_img" class="img-fluid"> -->
+                          <img src="images/Cart.png" alt="icon_img" class="img-fluid bg-dark p-1">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-6">
+                <div class="card_portion">
+                  <div class="card border-0 shadow h-100 ">
+                    <div class="food_img">
+                      <a href="#"><img class="card-img-top" src="images/image-(6).png" alt="Card image"></a>
+                    </div>
+                    <div class="card-body">
+                      <h4 class="fs_20 card-title"><a href="#">Fried Fish</a></h4>
+                      <p class="fs_16 card-text">Lorem Ipsum is simply dummy text <br>of the printing and typesetting
+                      </p>
+                      <div class="price">
+                        <a href="#" class="btn p-0 fs_16">Delivery Fee : $10</a>
+                        <a href="#" class="float-right">
+                          <!-- <img src="images/Plus.png" alt="icon_img" class="img-fluid"> -->
+                          <img src="images/Cart.png" alt="icon_img" class="img-fluid bg-dark p-1">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data_filter_contant="3">
+            <div class="row">
+              <div class="col-xl-4 col-6">
+                <div class="card_portion">
+                  <div class="card border-0 shadow h-100 ">
+                    <div class="food_img">
+                      <a href="#"><img class="card-img-top" src="images/image-(6).png" alt="Card image"></a>
+                    </div>
+                    <div class="card-body">
+                      <h4 class="fs_20 card-title"><a href="#">Fried Fish</a></h4>
+                      <p class="fs_16 card-text">Lorem Ipsum is simply dummy text <br>of the printing and typesetting
+                      </p>
+                      <div class="price">
+                        <a href="#" class="btn p-0 fs_16">Delivery Fee : $10</a>
+                        <a href="#" class="float-right">
+                          <!-- <img src="images/Plus.png" alt="icon_img" class="img-fluid"> -->
+                          <img src="images/Cart.png" alt="icon_img" class="img-fluid bg-dark p-1">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-6">
+                <div class="card_portion">
+                  <div class="card border-0 shadow h-100 ">
+                    <div class="food_img">
+                      <a href="#"><img class="card-img-top" src="images/image-(6).png" alt="Card image"></a>
+                    </div>
+                    <div class="card-body">
+                      <h4 class="fs_20 card-title"><a href="#">Fried Fish</a></h4>
+                      <p class="fs_16 card-text">Lorem Ipsum is simply dummy text <br>of the printing and typesetting
+                      </p>
+                      <div class="price">
+                        <a href="#" class="btn p-0 fs_16">Delivery Fee : $10</a>
+                        <a href="#" class="float-right">
+                          <!-- <img src="images/Plus.png" alt="icon_img" class="img-fluid"> -->
+                          <img src="images/Cart.png" alt="icon_img" class="img-fluid bg-dark p-1">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data_filter_contant="4">
+            <div class="row">
+              <div class="col-xl-4 col-6">
+                <div class="card_portion">
+                  <div class="card border-0 shadow h-100 ">
+                    <div class="food_img">
+                      <a href="#"><img class="card-img-top" src="images/image-(6).png" alt="Card image"></a>
+                    </div>
+                    <div class="card-body">
+                      <h4 class="fs_20 card-title"><a href="#">Fried Fish</a></h4>
+                      <p class="fs_16 card-text">Lorem Ipsum is simply dummy text <br>of the printing and typesetting
+                      </p>
+                      <div class="price">
+                        <a href="#" class="btn p-0 fs_16">Delivery Fee : $10</a>
+                        <a href="#" class="float-right">
+                          <!-- <img src="images/Plus.png" alt="icon_img" class="img-fluid"> -->
+                          <img src="images/Cart.png" alt="icon_img" class="img-fluid bg-dark p-1">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-6">
+                <div class="card_portion">
+                  <div class="card border-0 shadow h-100 ">
+                    <div class="food_img">
+                      <a href="#"><img class="card-img-top" src="images/image-(6).png" alt="Card image"></a>
+                    </div>
+                    <div class="card-body">
+                      <h4 class="fs_20 card-title"><a href="#">Fried Fish</a></h4>
+                      <p class="fs_16 card-text">Lorem Ipsum is simply dummy text <br>of the printing and typesetting
+                      </p>
+                      <div class="price">
+                        <a href="#" class="btn p-0 fs_16">Delivery Fee : $10</a>
+                        <a href="#" class="float-right">
+                          <!-- <img src="images/Plus.png" alt="icon_img" class="img-fluid"> -->
+                          <img src="images/Cart.png" alt="icon_img" class="img-fluid bg-dark p-1">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data_filter_contant="5">
+            <div class="row">
+              <div class="col-xl-4 col-6">
+                <div class="card_portion">
+                  <div class="card border-0 shadow h-100 ">
+                    <div class="food_img">
+                      <a href="#"><img class="card-img-top" src="images/image-(6).png" alt="Card image"></a>
+                    </div>
+                    <div class="card-body">
+                      <h4 class="fs_20 card-title"><a href="#">Fried Fish</a></h4>
+                      <p class="fs_16 card-text">Lorem Ipsum is simply dummy text <br>of the printing and typesetting
+                      </p>
+                      <div class="price">
+                        <a href="#" class="btn p-0 fs_16">Delivery Fee : $10</a>
+                        <a href="#" class="float-right">
+                          <!-- <img src="images/Plus.png" alt="icon_img" class="img-fluid"> -->
+                          <img src="images/Cart.png" alt="icon_img" class="img-fluid bg-dark p-1">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-6">
+                <div class="card_portion">
+                  <div class="card border-0 shadow h-100 ">
+                    <div class="food_img">
+                      <a href="#"><img class="card-img-top" src="images/image-(6).png" alt="Card image"></a>
+                    </div>
+                    <div class="card-body">
+                      <h4 class="fs_20 card-title"><a href="#">Fried Fish</a></h4>
+                      <p class="fs_16 card-text">Lorem Ipsum is simply dummy text <br>of the printing and typesetting
+                      </p>
+                      <div class="price">
+                        <a href="#" class="btn p-0 fs_16">Delivery Fee : $10</a>
+                        <a href="#" class="float-right">
+                          <!-- <img src="images/Plus.png" alt="icon_img" class="img-fluid"> -->
+                          <img src="images/Cart.png" alt="icon_img" class="img-fluid bg-dark p-1">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data_filter_contant="6">
+            <div class="row">
+              <div class="col-xl-4 col-6">
+                <div class="card_portion">
+                  <div class="card border-0 shadow h-100 ">
+                    <div class="food_img">
+                      <a href="#"><img class="card-img-top" src="images/image-(6).png" alt="Card image"></a>
+                    </div>
+                    <div class="card-body">
+                      <h4 class="fs_20 card-title"><a href="#">Fried Fish</a></h4>
+                      <p class="fs_16 card-text">Lorem Ipsum is simply dummy text <br>of the printing and typesetting
+                      </p>
+                      <div class="price">
+                        <a href="#" class="btn p-0 fs_16">Delivery Fee : $10</a>
+                        <a href="#" class="float-right">
+                          <!-- <img src="images/Plus.png" alt="icon_img" class="img-fluid"> -->
+                          <img src="images/Cart.png" alt="icon_img" class="img-fluid bg-dark p-1">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-6">
+                <div class="card_portion">
+                  <div class="card border-0 shadow h-100 ">
+                    <div class="food_img">
+                      <a href="#"><img class="card-img-top" src="images/image-(6).png" alt="Card image"></a>
+                    </div>
+                    <div class="card-body">
+                      <h4 class="fs_20 card-title"><a href="#">Fried Fish</a></h4>
+                      <p class="fs_16 card-text">Lorem Ipsum is simply dummy text <br>of the printing and typesetting
+                      </p>
+                      <div class="price">
+                        <a href="#" class="btn p-0 fs_16">Delivery Fee : $10</a>
+                        <a href="#" class="float-right">
+                          <!-- <img src="images/Plus.png" alt="icon_img" class="img-fluid"> -->
+                          <img src="images/Cart.png" alt="icon_img" class="img-fluid bg-dark p-1">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data_filter_contant="7">
+            <div class="row">
+              <div class="col-xl-4 col-6">
+                <div class="card_portion">
+                  <div class="card border-0 shadow h-100 ">
+                    <div class="food_img">
+                      <a href="#"><img class="card-img-top" src="images/image-(6).png" alt="Card image"></a>
+                    </div>
+                    <div class="card-body">
+                      <h4 class="fs_20 card-title"><a href="#">Fried Fish</a></h4>
+                      <p class="fs_16 card-text">Lorem Ipsum is simply dummy text <br>of the printing and typesetting
+                      </p>
+                      <div class="price">
+                        <a href="#" class="btn p-0 fs_16">Delivery Fee : $10</a>
+                        <a href="#" class="float-right">
+                          <!-- <img src="images/Plus.png" alt="icon_img" class="img-fluid"> -->
+                          <img src="images/Cart.png" alt="icon_img" class="img-fluid bg-dark p-1">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-6">
+                <div class="card_portion">
+                  <div class="card border-0 shadow h-100 ">
+                    <div class="food_img">
+                      <a href="#"><img class="card-img-top" src="images/image-(6).png" alt="Card image"></a>
+                    </div>
+                    <div class="card-body">
+                      <h4 class="fs_20 card-title"><a href="#">Fried Fish</a></h4>
+                      <p class="fs_16 card-text">Lorem Ipsum is simply dummy text <br>of the printing and typesetting
+                      </p>
+                      <div class="price">
+                        <a href="#" class="btn p-0 fs_16">Delivery Fee : $10</a>
+                        <a href="#" class="float-right">
+                          <!-- <img src="images/Plus.png" alt="icon_img" class="img-fluid"> -->
+                          <img src="images/Cart.png" alt="icon_img" class="img-fluid bg-dark p-1">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!------------- Delicious food section send----------->
+
+  <!-----------------Abuot us start------------->
+  <section class="aboutus_section py-sm-5 py-0" id="aboutus_data">
+    <div class="container">
+      <div class="about_part">
+        <div class="row">
+          <div class="col-xl-6 col-12">
+            <div class="row">
+              <div class="col-6">
+                <div class="part">
+                  <a href="#">
+                    <img src="images/image4.png" alt="img" class="img-fluid">
+                  </a>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="part">
+                  <a href="#">
+                    <img src="images/image-(6).png" alt="img" class="img-fluid">
+                  </a>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="part py-4">
+                  <a href="#">
+                    <img src="images/Image_A.png" alt="img" class="img-fluid">
+                  </a>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="part py-4">
+                  <a href="#">
+                    <img src="images/image1.png" alt="img" class="img-fluid">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-6 col-12">
+            <div class="heading">
+              <div class="small_heading">
+                <h5 class="fs_20 fw-700">ABOUT US</h5>
+              </div>
+              <div class="large_heading">
+                <h3 class="fs_30 fw-700">WE SERVE BEST FOOD <br> OUR CUSTOMERS</h3>
+              </div>
+              <div class="para">
+                <p class="fs_16">There are many variations of passages of Lorem Ipsum <br> available, but the majority
+                  have suffered alteration in some <br> form, by injected humour, or randomised words which don't <br>
+                  look even slightly believable.</p>
+              </div>
+            </div>
+
+            <div class="list">
+              <nav class="navbar p-0">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      <span>
+                        <img src="images/Booking.png" alt="icon_img" class="img-fluid">
+                      </span>
+                      <span class="fs_18 fw-600">Online Booking</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      <span>
+                        <img src="images/Buffet.png" alt="icon_img" class="img-fluid">
+                      </span>
+                      <span class="fs_18 fw-600">Buffet Service</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      <span>
+                        <img src="images/Quality.png" alt="icon_img" class="img-fluid">
+                      </span>
+                      <span class="fs_18 fw-600">Best Quality Food</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+
+            <div class="red_btn pt-2">
+              <a href="javascript:void(0)" class="btn">READ MORE</a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- <div class="year_btn">
+            <div class="red_btn pt-2 w-100">
+              <a href="javascript:void(0)" class="btn">20+ YEARS EXPERIENCE</a>
+            </div>
+          </div> -->
+
+      </div>
+    </div>
+  </section>
+  <!-----------------Abuot us end--------------->
+
+  <!------------ Why Choose us start------------>
+  <section class="why_choose_us_section " id="why_choose_us_data">
+    <div class="overlay">
+      <div class="container">
+        <div class="choose_part">
+          <div class="row align-items-center">
+            <div class="col-xl-7 col-12">
+              <div class="heading">
+                <div class="small_heading">
+                  <h5 class="fs_20 fw-700">WHY CHOOSE US</h5>
+                </div>
+                <div class="large_heading">
+                  <h3 class="fs_30 fw-700">WE MADE EXCELLENT <br> QUALITY FOOD</h3>
+                </div>
+                <div class="para">
+                  <p class="fs_16">Lorem Ipsum is simply dummy text of the printing and type <br>
+                    setting industry. Lorem Ipsum has been the industry's <br> standard dummy text ever since the 1500s.
+                  </p>
+                </div>
+              </div>
+
+              <div class="list">
+                <nav class="navbar navbar-expand p-0">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <div class="d_flex">
+                          <div class="fs50">
+                            <div class="counter-value" data-count="3200">3200</div>
+                          </div>
+                          <span class="fs50">+</span>
+                        </div>
+                        <span class="fw-600">Online Booking</span>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <div class="d_flex">
+                          <div class="fs50">
+                            <div class="counter-value" data-count="310">310</div>
+                          </div>
+                          <span class="fs50">+</span>
+                        </div>
+                        <span class="fw-600">Qualified Staff</span>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <div class="d_flex">
+                          <div class="fs50">
+                            <div class="counter-value" data-count="386">386</div>
+                          </div>
+                          <span class="fs50">+</span>
+                        </div>
+                        <span class="fw-600">Branches</span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+
+            <div class="col-xl-5 col-12 bg-light py-5 mt-5 mb-5">
+              <div class="table_container">
+                <div class="heading text-center">
+                  <div class="small_heading">
+                    <h5 class="fs_20 fw-700">CHECK AVAILABILITY</h5>
+                  </div>
+                  <div class="large_heading_table">
+                    <h3 class="fs_30 fw-700">OPENING TIMES</h3>
+                  </div>
+                </div>
+
+                <table class="table">
+                  <tbody>
+                    <tr>
+                      <td>Monday</td>
+                      <td>09:00-10:00</td>
+                    </tr>
+                    <tr>
+                      <td>Tuesday</td>
+                      <td>09:00-10:00</td>
+                    </tr>
+                    <tr>
+                      <td>Wednesday</td>
+                      <td>09:00-10:00</td>
+                    </tr>
+                    <tr>
+                      <td>Thursday</td>
+                      <td>09:00-10:00</td>
+                    </tr>
+                    <tr>
+                      <td>Friday</td>
+                      <td>09:00-10:00</td>
+                    </tr>
+                    <tr>
+                      <td>Saturday</td>
+                      <td>09:00-10:00</td>
+                    </tr>
+                    <tr>
+                      <td>Sunday</td>
+                      <td>09:00-10:00</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <div class="line"></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!------------ Why Choose us end-------------->
+
+  <!--------------- Speciaized Team start ---------------->
+  <section class="speciaized_team_section py-5" id="speciaized_team">
+    <div class="container">
+      <div class="our_team">
+        <div class="heading text-center">
+          <div class="small_heading">
+            <h5 class="fs_20 fw-700">SPECIALIZED TEAM</h5>
+          </div>
+          <div class="large_heading">
+            <h3 class="fs_30 fw-700">MEET OUR TEAM</h3>
+          </div>
+        </div>
+
+        <div class="team_member py-3">
+          <div class="slider_part owl-carousel owl-theme">
+            <div class="item slider_item">
+              <div class="slider_box">
+                <div class="member_img">
+                  <img src="images/person-1.png" alt="img" class="img-fluid">
+                </div>
+                <div class="member_name text-center">
+                  <h6 class="pt-3">Jessika Schmid</h6>
+                  <p>General Manager</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="item slider_item">
+              <div class="slider_box">
+                <div class="member_img">
+                  <img src="images/girl1.png" alt="img" class="img-fluid">
+                </div>
+                <div class="member_name text-center">
+                  <h6 class="pt-3">Jessika Schmid</h6>
+                  <p>General Manager</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="item slider_item">
+              <div class="slider_box">
+                <div class="member_img">
+                  <img src="images/person-2.png" alt="img" class="img-fluid">
+                </div>
+                <div class="member_name text-center">
+                  <h6 class="pt-3">Jessika Schmid</h6>
+                  <p>General Manager</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!--------------- Speciaized Team end ------------------>
+
+
+  <!--------------- Happy Customber start ------------------>
+  <section class="happy_customer_section" id="happy_customer_data">
+    <div class="container">
+      <div class="customer">
+        <div class="heading text-center">
+          <div class="small_heading">
+            <h5 class="fs_20 fw-700">HAPPY CUSTOMERS</h5>
+          </div>
+          <div class="large_heading">
+            <h3 class="fs_30 fw-700">OUR CLIENTS SAY ABOUT OUR <br> FOOD & SERVICES</h3>
+          </div>
+        </div>
+
+        <div class="text-img_part pt-3">
+          <div class="row">
+
+            <div class="col-xl-6 col-12">
+
+              <div class="text_part p-4 shadow">
+                <img src="images/quotes.png" alt="Los Angeles" class="img-fluid pt-3">
+                <p class="py-3 m-0 fs_16">There are many variations of passages of Lorem Ipsum available, but the
+                  majority have suffered alteration in some form, by injected humour, or randomised words which don't
+                  look even slightly believable. </p>
+                <span>Tracy R. Ganz</span><br>
+                <code>General Manager</code>
+              </div>
+            </div>
+
+            <div class="col-xl-6 col-12 pt-xl-0 pt-4 text-center">
+              <div class="img_part">
+                <img src="images/Image5.png" alt="img" class="img-fluid">
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--------------- Happy Customber end -------------------->
+
+  <!-------------- News & Blog section start --------------->
+  <section class="news_blog_section py-5" id="news_blog_data">
+    <div class="container">
+      <div class="news_block">
+        <div class="row">
+          <div class="col-xl-4 col-6">
+            <div class="news_blog_part">
+              <div class="heading">
+                <div class="small_heading">
+                  <h5 class="fs_20 fw-700">NEWS & BLOG</h5>
+                </div>
+                <div class="large_heading">
+                  <h3 class="fs_30 fw-700">GET EVERY UPDATES <br> LATEST NEWS & BLOG</h3>
+                </div>
+                <div class="para pt-2">
+                  <p class="fs_16">There are many variations of passages <br> of Lorem Ipsum available, but the <br>
+                    majority have suffered alteration in <br> some form.</p>
+                </div>
+              </div>
+              <div class="red_btn pt-2">
+                <a href="javascript:void(0)" class="btn">READ MORE</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-6">
+            <div class="news_meanu">
+              <div class="card_portion">
+                <div class="card border-0 shadow h-100">
+                  <div class="food_img">
+                    <a href="#"><img class="card-img-top" src="images/image3.png" alt="Card_image"
+                        class="img-fluid"></a>
+                  </div>
+                  <div class="card-body">
+                    <div class="date d-flex">
+                      <i class="fa fa-calendar" aria-hidden="true"></i>
+                      <p class="small  px-1 m-0">20 April, 2022</p>
+                    </div>
+                    <h4 class="card-title fs_20"><a href="#">Roasted fish garnished with Lemon Slices</a></h4>
+                    <div class="red_btn pt-3">
+                      <a href="javascript:void(0)" class="btn">READ MORE</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-12">
+            <div class="text_portion pt-xl-0 pt-4">
+              <div class="card border-0 shadow h-100">
+                <div class="card-body">
+                  <div class="date d-flex">
+                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                    <p class="small px-1 m-0">20 April, 2022</p>
+                  </div>
+                  <h4 class="card-title fs_20">Fresh Ingrdients Cooked in the Unique way</h4>
+                  <div class="red_btn pt-3">
+                    <a href="javascript:void(0)" class="btn">READ MORE</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="text_portion pt-4">
+              <div class="card border-0 shadow h-100">
+                <div class="card-body">
+                  <div class="date d-flex">
+                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                    <p class="small px-1 m-0">20 April, 2022</p>
+                  </div>
+                  <h4 class="card-title fs_20">Fresh Ingrdients Cooked in the Unique way</h4>
+                  <div class="red_btn pt-3">
+                    <a href="javascript:void(0)" class="btn">READ MORE</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!------------ News & Blog section end --------------->
+
+  <!------- Simple Way to order section start ------->
+  <section class="order_section py-5" id="order_data">
+    <div class="container">
+      <div class="way_to_order_part">
+        <div class="row">
+          <div class="col-xl-6 col-12">
+            <div class="order_box">
+              <div class="heading">
+                <div class="small_heading">
+                  <h5 class="fs_20 fw-700">SIMPLY WAY TO ORDER</h5>
+                </div>
+                <div class="large_heading">
+                  <h3 class="fs_30 fw-700">THE BEST SEAFOOD <br> DELIVERY APP</h3>
+                </div>
+                <div class="para pt-2">
+                  <p class="fs_16">Lorem Ipsum is simply dummy text of the printing and type <br> setting industry.
+                    Lorem Ipsum has been the industry's <br> standard dummy text ever since the 1500s.</p>
+                </div>
+              </div>
+              <div class="store_button">
+                <div class="row">
+                  <div class="col-6">
+                    <div class="red_btn ">
+                      <a href="javascript:void(0)" class="btn">
+                        <span><img src="images/icon_apple.png" alt="store_img" class="img-fluid"></span>
+                        <span> Available on the <br> APP Store </span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="red_btn">
+                      <a href="javascript:void(0)" class="btn">
+                        <span><img src="images/Icon_play.png" alt="store_img" class="img-fluid"></span>
+                        <span>Available on the <br> Play Store </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-12 pt-xl-0 pt-4 text-center">
+            <div class="img_part">
+              <div class="mobile_img">
+                <img src="images/mob1.png" alt="mobile_img" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!------- Simple Way to order section end -------->
+
+
+  <!------------ Footer section start --------------->
+  <footer class="footer_section py-5" id="footer_data">
+    <div class="container">
+      <div class="logo text-center">
+        <img src="images/Logo_footer.png" alt="logo_img" class="img-fluid">
+      </div>
+      <div class="contact_details text-center pt-2">
+        <span>+01 111 222 333</span>
+        <p>25 Trent Close, United Kingdom <br> <a href="#"> demo@example.com</a></p>
+      </div>
+      <div class="subscribe">
+        <div class="row justify-content-center">
+          <div class="col-6">
+            <div class="subscribe_detalis">
+              <form>
+                <div class="input-group mb-3">
+                  <input type="email" class="form-control bg-dark border-0" placeholder="Subscribe by your email">
+                  <div class="input-group-append">
+                    <span class="input-group-text bg-dark border-0 p-0">
+                      <button type="submit" class="btn">
+                        <img src="images/Send.png" alt="send_img" class="img-fluid">
+                      </button>
+                    </span>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="list">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0);"><img src="images/fb.png" alt="fb_img"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0);"><img src="images/twitter.png" alt="twt_img"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0);"><img src="images/insta.png" alt="ins_img"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0);"><img src="images/link.png" alt="link_img"></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="copy_right text-center pt-3">
+        <span class="text-light"> @ Copyright 2022 All Rights Reserved.</span>
+        <span class="text-danger">SEAFOOD</span>
+      </div>
+    </div>
+  </footer>
+  <!------------- Footer section end ---------------->
+
+  <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <iframe src="images/Send.png" frameborder="0"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/custom.js"></script>
+</body>
+
+</html>
